@@ -2,7 +2,7 @@ export const sliderItems = [
   {
     id: "1",
     img: "assets/braclet/main.jfif",
-    title: "Deploying with bash Scripting",
+    title: "We have successfully deployed with bash Scripting",
     desc: "This is now in new commit",
     bg: "green",
   },
