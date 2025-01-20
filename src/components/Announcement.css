@@ -1,0 +1,9 @@
+.live_price{
+    height: 30px;
+    background-color: #0ddccb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

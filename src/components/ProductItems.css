@@ -1,0 +1,74 @@
+.productdiv{
+    width: auto;
+    background-color: cornsilk;
+}
+.filter{
+    width: auto;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+        
+}
+
+.sort{
+    display: flex;
+    flex-direction: row;
+}
+
+.size {
+    display: flex;
+    flex-direction: row;
+}
+
+.color{
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin:auto;
+    
+}
+
+.Size {
+    width: 100px;
+    height: 25px;
+    margin: auto;
+}
+
+
+
+
+
+.productImg{
+
+    background-color: burlywood;
+    
+}
+
+.imgContainer{
+    width: 100%;
+    height: 300px;
+    background-color:rgb(32, 196, 202);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+
+    
+    
+
+}
+
+.eachimage{
+
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    margin: 25px;
+    
+    
+    
+    
+}

@@ -1,0 +1,82 @@
+
+.containerslide{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #d4b920;
+    position: relative;
+    overflow: hidden;
+}
+
+[class$='_slide']{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 50%;
+    z-index: 2;
+}
+.wrap{
+    height: 100%;
+    display: flex;
+    transition: all 1s ease-out;
+    
+}
+
+.slides{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.imagebox{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 75%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.info{
+    flex: 1;
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    margin: 50px 0px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+button{
+    padding: 10px;
+    font-size: 30px;
+    background-color:transparent;
+    cursor: pointer;
+}

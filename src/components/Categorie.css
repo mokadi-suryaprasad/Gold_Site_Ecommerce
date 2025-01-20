@@ -1,0 +1,6 @@
+.category{
+   display: flex;
+   padding: 20px;
+   height: 100vh;
+   background-color: #e30606;
+}

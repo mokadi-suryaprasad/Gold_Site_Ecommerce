@@ -1,0 +1,20 @@
+
+.goldContainer{
+    height: 25%;
+    background-color:rgb(196, 187, 120);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+   
+  
+}
+
+.goldtext{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}

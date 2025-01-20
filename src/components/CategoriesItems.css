@@ -1,0 +1,44 @@
+.categoriesItems{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+
+}
+
+.list{
+    flex: 1;
+    margin: 5px;
+    height: 50vh;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.imgbox{
+    width: 100%;
+    height: 100%;
+    
+}
+.imgboxCat {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+.infoCat{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+

@@ -1,0 +1,19 @@
+###uncomment the multi stage build if you are practising before helm, comment the second docker file#########
+#FROM node:18 AS buildmachine
+#WORKDIR /app
+#COPY package*.json ./
+#RUN npm install
+#COPY . .
+#RUN npm run build
+#
+#FROM nginx:alpine
+#COPY --from=buildmachine /app/build /usr/share/nginx/html
+#EXPOSE 80
+#CMD ["nginx", "-g", "daemon off;"]
+
+
+###the below docker file to be commented if you are practising before helm charts###
+FROM nginx:alpine
+COPY build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
