@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                     // Execute Ansible playbook on Build Server
-                    sh "ssh ubuntu@ip-10-0-2-140 'ansible-playbook /home/ubuntu/build.yaml'"
+                    sh "ssh ubuntu@10.0.2.140 'ansible-playbook /home/ubuntu/build.yaml'"
                 }
             }
         }
